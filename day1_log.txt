@@ -1,0 +1,20 @@
+2026-10-10 16:05:33 | Reading: {'temperature': 59, 'pressure': 81, 'vibration': 8.75, 'current': 12.02} | Rule: HIGH_VIBRATION | Action: MAINTENANCE_REQUIRED
+2026-10-10 16:05:33 | Reading: {'temperature': 90, 'pressure': 45, 'vibration': 4.42, 'current': 17.38} | Rule: HIGH_TEMP | Action: STOP_MACHINE
+2026-10-10 16:05:34 | Reading: {'temperature': 80, 'pressure': 90, 'vibration': 9.04, 'current': 10.45} | Rule: HIGH_VIBRATION | Action: MAINTENANCE_REQUIRED
+2026-10-10 16:05:34 | Reading: {'temperature': 66, 'pressure': 52, 'vibration': 1.59, 'current': 9.11} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+2026-10-10 16:05:34 | Reading: {'temperature': 77, 'pressure': 87, 'vibration': 3.43, 'current': 8.94} | Rule: TEMP_WARNING | Action: SEND_WARNING
+2026-10-10 16:05:34 | Reading: {'temperature': 64, 'pressure': 45, 'vibration': 5.99, 'current': 7.82} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+2026-10-10 16:05:34 | Reading: {'temperature': 72, 'pressure': 55, 'vibration': 5.69, 'current': 5.41} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+2026-10-10 16:05:35 | Reading: {'temperature': 71, 'pressure': 84, 'vibration': 9.53, 'current': 10.5} | Rule: HIGH_VIBRATION | Action: MAINTENANCE_REQUIRED
+2026-10-10 16:05:35 | Reading: {'temperature': 92, 'pressure': 57, 'vibration': 3.58, 'current': 5.41} | Rule: HIGH_TEMP | Action: STOP_MACHINE
+2026-10-10 16:05:35 | Reading: {'temperature': 52, 'pressure': 79, 'vibration': 9.53, 'current': 14.63} | Rule: HIGH_VIBRATION | Action: MAINTENANCE_REQUIRED
+{"timestamp": "2026-10-10T16:14:10", "reading": {"temperature": 83.19594503017561, "pressure": 9.5785437419668, "vibration": 0.6510023772494666, "current": 5.1802696770257874}, "rule": "HIGH_TEMP", "action": "STOP_MACHINE"}
+{"timestamp": "2026-10-10T16:14:10", "reading": {"temperature": 74.22640068245454, "pressure": 5.4887547721204655, "vibration": 2.4328638109650393, "current": 17.224823104230403}, "rule": "HIGH_PRESSURE", "action": "STOP"}
+{"timestamp": "2026-10-10T16:14:10", "reading": {"temperature": 87.08004172415818, "pressure": 6.670584026088413, "vibration": 2.2937123801425345, "current": 3.4439796083246756}, "rule": "HIGH_TEMP", "action": "STOP_MACHINE"}
+{"timestamp": "2026-10-10T16:14:10", "reading": {"temperature": 54.940096507528835, "pressure": 5.435536246997926, "vibration": 1.7617811671248234, "current": 16.2754344577074}, "rule": "HIGH_PRESSURE", "action": "STOP"}
+{"timestamp": "2026-10-10T16:14:11", "reading": {"temperature": 62.71044555345105, "pressure": 6.736392455100396, "vibration": 3.96585517773811, "current": 19.311200774259316}, "rule": "HIGH_PRESSURE", "action": "STOP"}
+{"timestamp": "2026-10-10T16:14:11", "reading": {"temperature": 77.44359713973114, "pressure": 6.06493958984367, "vibration": 4.704980830101662, "current": 10.31733787896783}, "rule": "HIGH_PRESSURE", "action": "STOP"}
+{"timestamp": "2026-10-10T16:14:11", "reading": {"temperature": 51.40411502007628, "pressure": 8.61399857663952, "vibration": 0.4833398056421573, "current": 6.399331501921131}, "rule": "HIGH_PRESSURE", "action": "STOP"}
+{"timestamp": "2026-10-10T16:14:11", "reading": {"temperature": 92.24374990710473, "pressure": 5.8531615168981235, "vibration": 2.7541177498036173, "current": 13.40177923550757}, "rule": "HIGH_TEMP", "action": "STOP_MACHINE"}
+{"timestamp": "2026-10-10T16:14:11", "reading": {"temperature": 68.13461994244477, "pressure": 7.998002184579181, "vibration": 1.9954580661315795, "current": 2.280637493439399}, "rule": "HIGH_PRESSURE", "action": "STOP"}
+{"timestamp": "2026-10-10T16:14:12", "reading": {"temperature": 65.07138733935638, "pressure": 3.5752942111424035, "vibration": 2.1246436754028304, "current": 4.053407891745536}, "rule": "HIGH_PRESSURE", "action": "STOP"}
