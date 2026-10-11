@@ -1,0 +1,18 @@
+Dataset: sensor_data.csv
+Rows: 250
+Training rows: 200
+Test rows: 50
+Features: temperature, pressure, vibration, rpm, current
+Target: state
+Accuracy: 0.940
+
+Classification report:
+              precision    recall  f1-score   support
+
+     FAILURE       0.94      0.97      0.95        32
+      NORMAL       1.00      1.00      1.00         5
+     WARNING       0.92      0.85      0.88        13
+
+    accuracy                           0.94        50
+   macro avg       0.95      0.94      0.94        50
+weighted avg       0.94      0.94      0.94        50
