@@ -1,0 +1,5 @@
+example,actual_decision,reason
+SAFE,SAFE,"No safety, warning, spoof, wear, or relevant-note signal"
+MONITOR,MONITOR,At least one joint crossed a warning limit
+SCHEDULE_MAINTENANCE,SCHEDULE_MAINTENANCE,Maintenance notes contain: loose
+EMERGENCY_STOP,EMERGENCY_STOP,Safety threshold exceeded at shoulder

@@ -1,0 +1,25 @@
+Robotic Arm Joint Health Monitoring System — Design Notes
+
+1. Safety thresholds
+This synthetic demo uses immediate-stop thresholds of torque >= 95 Nm,
+temperature >= 90 C, or vibration >= 12 mm/s at any shoulder, elbow, or wrist
+joint. These are illustrative coursework thresholds only. A real robot requires
+manufacturer-approved limits and a formal safety review. safety_stop() is
+deterministic and independent of the ML model.
+
+2. Prediction and maintenance notes
+The program creates 300 synthetic labelled historical readings. A Decision Tree
+learns NORMAL versus WEAR from torque, temperature, and vibration. Free-text
+technician notes are scanned for maintenance keywords. An emergency threshold
+takes priority; otherwise predicted wear or relevant notes schedule maintenance.
+Warning-range readings lead to MONITOR; otherwise the arm is SAFE.
+
+3. Spoofed-sensor defence
+The demo flags very low torque combined with high heat/vibration, or a torque
+value far from the median torque across the arm's three joints. This may catch
+some crude low-value masking and outliers. It will not catch a coordinated spoof
+that keeps readings plausible, and it cannot prove which sensor is correct.
+Real deployments need authenticated sensors, time-series checks, redundant
+measurements, and calibrated physical limits.
+
+Synthetic coursework demonstration only; do not use to control a real robot.

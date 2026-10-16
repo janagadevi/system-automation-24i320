@@ -1,0 +1,13 @@
+Dataset rows: 300
+Training rows: 240
+Test rows: 60
+Accuracy: 0.983
+
+              precision    recall  f1-score   support
+
+      NORMAL       1.00      0.98      0.99        44
+        WEAR       0.94      1.00      0.97        16
+
+    accuracy                           0.98        60
+   macro avg       0.97      0.99      0.98        60
+weighted avg       0.98      0.98      0.98        60
